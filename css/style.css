@@ -9097,7 +9097,9 @@ textarea.form-control {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff; }
-
+.contact-wrap .mapouter{
+  margin-left: -6%;
+}
 .info-wrap {
   color: rgba(0, 0, 0, 0.8); }
   .info-wrap h3 {
