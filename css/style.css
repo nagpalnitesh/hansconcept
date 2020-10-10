@@ -8961,7 +8961,6 @@ h1, h2, h3, h4, h5,
       font-weight: 700;
       border: 1px solid #f3c623;
       padding: 2px 5px; }
-
 .form-control {
   height: 52px !important;
   border-radius: 0px;
@@ -9323,7 +9322,7 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-/* hello*/
+/* hello */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -9348,13 +9347,13 @@ textarea.form-control {
 .dropdown:hover .dropdown-content {display: block;}
 
 .aboutcol{
-  margin-top: 2em;
-  padding-top: 3em;
+  margin-top: 1em;
+  padding-top: 1em;
   text-align: center;
 }
 
 .txtabout{
-  padding-top: 2em;
+  padding-top: 1em;
   padding-left: 2em;
   padding-right: 2em;
   text-align: left;
@@ -9364,3 +9363,15 @@ textarea.form-control {
   padding: 1.5em;
   text-align: justify;
 }
+/*
+.dropdown-menu{
+  background-color: #000;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+} */
