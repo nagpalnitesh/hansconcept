@@ -9375,3 +9375,47 @@ textarea.form-control {
   left: 100%;
   margin-top: -1px;
 } */
+
+.socialmedia i{
+  color: rgb(117, 117, 117);
+}
+.socialmedia ul{
+  list-style: none;
+  
+}
+
+.socialmedia ul li{
+  display: inline-block;
+  font-size: 2em;
+  margin-right: 0.7em;
+}
+
+.socialmedia i{
+  color: rgb(117, 117, 117);
+}
+
+.socialmedia li:nth-child(1) i:hover{
+  color: #3b5998;
+}
+
+.socialmedia li:nth-child(2) i:hover{
+  color: #00acee;
+}
+
+.socialmedia li:nth-child(3) i:hover{
+  color: #8134AF;
+}
+
+.socialmedia li:nth-child(4) i:hover{
+  color: #FF0000;
+}
+
+.hovercard{
+  border: 2px solid yellow; 
+  padding: 5px;
+}
+
+.hovercard:hover{
+  background-color: #000;
+  animation: hover1 5s linear forwards;
+}
