@@ -9450,3 +9450,43 @@ textarea.form-control {
   top:42%;
   left: 30%;
 }
+
+.port1{
+  text-shadow: 2.5px 2px rgba(2, 40, 255, 0.623);
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.inputform input {
+  border-radius: 0.3em !important;
+  border: 2px solid black;
+  margin-left: 1em;
+  width: 100%;
+}
+.info-wrap .dbox{
+  margin-bottom: 0.7em;
+}
+.info-wrap .dbox .icon1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 0em; }
+  .info-wrap .dbox .icon1 span {
+    font-size: 20px;
+    color: #000000; }
+    .inputform textarea{
+      margin-top: 0.5em;
+      margin-left: 1em;
+      width: 100%;
+      border-radius: 0.3em !important;
+      border: 2px solid black;
+    }
+.subbtn input{
+  border-radius: 0.3em !important;
+  border: 2px solid black;
+  margin-left: 1em;
+  width: 100%;
+}
+hr{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
