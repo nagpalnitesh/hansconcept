@@ -9527,3 +9527,113 @@ hr{
   background-repeat: no-repeat;
 }
 
+.topbox1{
+  width: 100%;
+  height: 40vh;
+  background-image: url('../images/products/img-car-mats.jpg');
+  background-size: cover;
+}
+.topbox2{
+  width: 100%;
+  height: 40vh;
+  background-image: url('../images/products/img-car-foot-mats.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+.topbox3{
+  width: 100%;
+  height: 40vh;
+  background-image: url('../images/products/img-car-rubber-foot-mats.jpg');
+  background-size: cover;
+  background-position: 51%;
+}
+.topbox4{
+  width: 100%;
+  height: 40vh;
+  background-image: url('../images/products/img-car-floor-mats.jpg');
+  background-size: cover;
+  background-position: 50%;
+
+}
+.topbox5{
+  width: 100%;
+  height: 40vh;
+  background-image: url('../images/products/img-car-dicky-mats.jpg');
+  background-size: cover;
+}
+.topbox6{
+  width: 100%;
+  height: 40vh;
+  background-image: url('../images/products/img-rubber-universal-foot-mats.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.623);
+  opacity: 0;
+}
+.overlay h1{
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 4em;
+}
+.overlay h2{
+  font-size: 1em;
+  padding: 0em 1em 0em 1em;
+  text-align: center;
+}
+.overlay p{
+  padding: 0.5em;
+  color: yellow;
+  text-align: center;
+}
+
+.overlay:hover{
+  animation: ctnt 0.5s linear forwards;
+}
+
+@keyframes ctnt{
+  0%{
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.contxt{
+  background-color: rgb(0, 0, 0);
+  height: 10vh;
+}
+
+.txth1{
+  margin-top: 80%;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+}
+
+.topbox1:hover .contxt,
+.topbox2:hover .contxt,
+.topbox3:hover .contxt,
+.topbox4:hover .contxt,
+.topbox5:hover .contxt,
+.topbox6:hover .contxt{
+  animation: noctnt 2s linear forwards;
+}
+@keyframes noctnt{
+  0%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(200%);
+    opacity: 0;
+  }
+}
