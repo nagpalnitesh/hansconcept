@@ -9734,3 +9734,9 @@ hr{
     }
   }
 }
+
+.product{
+  background-image: url('../images/product.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
