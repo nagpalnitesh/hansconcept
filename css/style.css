@@ -9490,9 +9490,13 @@ textarea.form-control {
 hr{
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
-
+.txt1h1{
+  padding-bottom: 3em; 
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.774); 
+  text-align: center;
+}
 .box1{
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 5em 3em 5em 3em; 
   text-align: center;
   z-index: 999;
@@ -9502,7 +9506,7 @@ hr{
 }
 
 .box2{
-  border-top: 2px solid black;
+  border: 1px solid black;
    border-bottom: 2px solid black; 
    background-image: url('../images/neckrest.jpg'); 
    background-size: cover; 
@@ -9512,7 +9516,7 @@ hr{
 }
 
 .box3{
-  border: 2px solid black; 
+  border: 1px solid black; 
   background-image: url('../images/seatcover.jpg'); 
   background-size: cover; 
   padding: 5em 2em 5em 2em; 
@@ -9532,6 +9536,7 @@ hr{
   height: 40vh;
   background-image: url('../images/products/img-car-mats.jpg');
   background-size: cover;
+  border: 1px solid yellow;
 }
 .topbox2{
   width: 100%;
@@ -9539,6 +9544,7 @@ hr{
   background-image: url('../images/products/img-car-foot-mats.jpg');
   background-size: cover;
   background-position: 50%;
+  border: 1px solid yellow;
 }
 .topbox3{
   width: 100%;
@@ -9546,6 +9552,7 @@ hr{
   background-image: url('../images/products/img-car-rubber-foot-mats.jpg');
   background-size: cover;
   background-position: 51%;
+  border: 1px solid yellow;
 }
 .topbox4{
   width: 100%;
@@ -9553,6 +9560,7 @@ hr{
   background-image: url('../images/products/img-car-floor-mats.jpg');
   background-size: cover;
   background-position: 50%;
+  border: 1px solid yellow;
 
 }
 .topbox5{
@@ -9560,6 +9568,7 @@ hr{
   height: 40vh;
   background-image: url('../images/products/img-car-dicky-mats.jpg');
   background-size: cover;
+  border: 1px solid yellow;
 }
 .topbox6{
   width: 100%;
@@ -9567,6 +9576,7 @@ hr{
   background-image: url('../images/products/img-rubber-universal-foot-mats.jpg');
   background-size: cover;
   background-position: 50%;
+  border: 1px solid yellow;
 }
 
 .overlay{
@@ -9613,10 +9623,10 @@ hr{
 }
 
 .txth1{
-  margin-top: 80%;
+  margin-top: 70%;
   text-align: center;
   font-size: 1.5em;
-  padding-top: 0.5em;
+  padding-top: 1em;
 }
 
 .topbox1:hover .contxt,
@@ -9635,5 +9645,92 @@ hr{
   100%{
     transform: translateY(200%);
     opacity: 0;
+  }
+}
+
+@media screen and (max-width:768px){
+  .txth1{
+    margin-top: 65%;
+  }
+  .txt1h1{
+    padding-bottom: 1em; 
+    text-shadow: 2px 5px rgba(0, 0, 0, 0.774); 
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -2em;
+    margin-bottom: 10em;
+  }
+  .box1{
+    border: 1px solid black;
+    padding: 5em 3em 5em 3em; 
+    text-align: center;
+    z-index: 999;
+    background-image: url('../images/7dmats.jpg');
+    background-size: cover;
+    text-shadow: 3px 3px rgb(49, 49, 49);
+  }
+  
+  .box2{
+    border: 1px solid black;
+     border-bottom: 2px solid black; 
+     background-image: url('../images/neckrest.jpg'); 
+     background-size: cover; 
+     padding: 5em 3em 5em 3em; 
+     text-align: center;
+     text-shadow: 3px 3px rgb(49, 49, 49);
+  }
+  
+  .box3{
+    border: 1px solid black; 
+    background-image: url('../images/seatcover.jpg'); 
+    background-size: cover; 
+    padding: 5em 2em 5em 2em; 
+    text-align: center;
+    text-shadow: 3px 3px rgb(49, 49, 49);
+  }
+  
+  .label1{
+    background-image: url('../images/ford_mobile.jpeg'); 
+    background-size: contain;  
+    background-repeat: no-repeat;
+  }
+  .carousel-item:nth-child(1) .textpro h1{
+    
+    font-size: 1em;
+  }
+  .carousel-item:nth-child(2) .textpro h1{
+    font-size: 1em;
+  }
+  .carousel-item:nth-child(3) .textpro h1{
+    font-size: 1em;
+  }
+  .carousel-item:nth-child(4) .textpro h1{
+    font-size: 1em;
+  }
+  .carousel-item:nth-child(5) .textpro h1{
+    font-size: 1em;
+  }
+  .carousel-item:nth-child(6) .textpro h1{
+    font-size: 1em;
+  }
+  
+  @media screen and (min-width:411px){
+    .txt1h1{
+      font-size: 2em;
+      margin-top: -2em;
+      margin-bottom: 10em;
+    }
+  }
+  @media screen and (min-width:320px){
+    .box1 h1,
+    .box2 h1,
+    .box3 h1{
+      font-size: 2em;
+    }
+    .box1 a,
+    .box2 a,
+    .box3 a{
+      font-size: 0.8em;
+    }
   }
 }
