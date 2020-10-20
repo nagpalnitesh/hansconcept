@@ -9764,11 +9764,7 @@ hr{
   font-size: 0.8em;
 }
 
-.carbox{
-  margin: 0 1.5em 1em 1.5em ; 
-  text-align: center;
-  width: 100%;
-}
+
 .carbox h1{
   margin-top: 0.5em;
   font-size: 1em;
@@ -9782,5 +9778,10 @@ hr{
   text-shadow: 0px 1px 5px rgb(128, 109, 3);
   background-color: rgba(0, 0, 0, 0.685);
   padding-bottom: 0.5em;
+}
+
+.cardbox .col-md-3{
+  text-align: center;
+  margin-bottom: 2em;
 }
 
