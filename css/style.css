@@ -9783,3 +9783,8 @@ hr{
   margin-bottom: 2em;
 }
 
+@media screen and (max-width:768px){
+  #colorlib-aside .colorlib-footer{
+    font-size: 12px;
+  }
+}
