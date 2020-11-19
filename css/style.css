@@ -9461,6 +9461,12 @@ textarea.form-control {
   margin-left: 1em;
   width: 100%;
 }
+
+.inputform:hover .sub{
+  background-color: #f3c623;
+  color: white;
+}
+
 .info-wrap .dbox{
   margin-bottom: 0.7em;
 }
